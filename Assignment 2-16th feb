@@ -1,0 +1,12 @@
+#include<stdio.h>
+main()
+{
+int x,y,value;
+printf("Enter the x value:");
+scanf("%d",&x);
+printf("Enter the value of y:");
+scanf("%d",&y);
+value = pow(x,y);
+printf("value = %d",value);
+return 0;
+}
